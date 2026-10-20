@@ -1,0 +1,22 @@
+{
+    "min_ac_temp": 25,
+    "num_agents": 200,
+    "simulation_days": 30,
+    "building_name": "Gedung Kuliah Utama",
+    "operating_hours": {
+        "start": 7,
+        "end": 21
+    },
+    "restricted_zones": [
+        {
+            "name": "Lab Biologi",
+            "cooling_override": true,
+            "max_temp": 22
+        },
+        {
+            "name": "Server Room",
+            "cooling_override": true,
+            "max_temp": 20
+        }
+    ]
+}

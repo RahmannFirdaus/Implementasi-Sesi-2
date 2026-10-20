@@ -1,0 +1,14 @@
+# Campus Energy HPC Co-Simulation
+# Dependencies
+# ============
+# Proyek ini menggunakan pustaka standar Python (json, random, sys, csv, os).
+# Tidak ada dependensi eksternal yang diperlukan untuk simulasi dasar.
+#
+# Untuk integrasi EnergyPlus penuh, tambahkan:
+# eppy>=0.5.63
+# pyenergyplus>=23.2.0
+#
+# Untuk visualisasi hasil (opsional):
+# matplotlib>=3.7.0
+# pandas>=2.0.0
+# seaborn>=0.12.0
