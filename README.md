@@ -14,22 +14,6 @@ Proyek ini mengimplementasikan **co-simulation** untuk menganalisis dan mengopti
 
 Kedua model dijalankan di **kluster HPC** menggunakan **SLURM** job scheduler untuk menguji berbagai skenario kebijakan penghematan listrik.
 
-## 🏗️ Struktur Proyek
-
-```
-campus-energy-hpc-sim/
-├── README.md                     # Dokumentasi proyek
-├── requirements.txt              # Dependensi Python
-├── data/
-│   ├── building_model.epw        # Data kondisi cuaca lokal (EPW format)
-│   └── policy_config.json        # Konfigurasi aturan/kebijakan energi
-├── src/
-│   ├── abm_simulation.py         # Logika perilaku agen & simulasi beban
-│   └── energyplus_wrapper.py     # Integrator model fisik gedung
-└── hpc_jobs/
-    └── submit_job.sh             # Skrip submission SLURM untuk HPC
-```
-
 ## 🚀 Cara Menjalankan
 
 ### Lokal (tanpa HPC)
@@ -74,5 +58,5 @@ Edit file `data/policy_config.json` untuk mengubah parameter simulasi:
 
 ## 📚 Referensi
 
-- US Department of Energy — [EnergyPlus](https://energyplus.net/)
-- SLURM Workload Manager — [Documentation](https://slurm.schedmd.com/)
+- US Department of Energy - [EnergyPlus](https://energyplus.net/)
+- SLURM Workload Manager - [Documentation](https://slurm.schedmd.com/)
