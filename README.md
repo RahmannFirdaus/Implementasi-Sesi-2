@@ -9,8 +9,8 @@
 
 Proyek ini mengimplementasikan **co-simulation** untuk menganalisis dan mengoptimalkan konsumsi energi gedung kampus. Pendekatan yang digunakan menggabungkan:
 
-1. **EnergyPlus Wrapper** — Model fisik gedung yang menghitung beban termal dan konsumsi HVAC berdasarkan data cuaca lokal.
-2. **Agent-Based Model (ABM)** — Simulasi perilaku penghuni gedung dan kepatuhan terhadap kebijakan energi.
+1. **EnergyPlus Wrapper** - Model fisik gedung yang menghitung beban termal dan konsumsi HVAC berdasarkan data cuaca lokal.
+2. **Agent-Based Model (ABM)** - Simulasi perilaku penghuni gedung dan kepatuhan terhadap kebijakan energi.
 
 Kedua model dijalankan di **kluster HPC** menggunakan **SLURM** job scheduler untuk menguji berbagai skenario kebijakan penghematan listrik.
 
